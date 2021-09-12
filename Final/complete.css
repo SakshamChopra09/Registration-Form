@@ -1,0 +1,336 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #0d0d86de;
+    font-size: 50px;
+    /* text-decoration: underline; */
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 1000;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(185, 67, 24);
+}
+
+.ani1 {
+    position: relative;
+    animation: mymove1 10s;
+    /* animation-play-state: play; */
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove1 {
+    0% {
+        height: 10px;
+        width: 0px;
+        left: 450px;
+        top: 70px;
+        background: red;
+    }
+    12.5% {
+        height: 10px;
+        width: 50px;
+        left: 600px;
+        top: 70px;
+        background: red;
+    }
+    25% {
+        height: 10px;
+        width: 100px;
+        left: 700px;
+        top: 70px;
+        background: yellow;
+    }
+    37.5% {
+        height: 10px;
+        width: 50px;
+        left: 900px;
+        top: 70px;
+        background: yellow;
+    }
+    50% {
+        height: 10px;
+        width: 0px;
+        left: 1075px;
+        top: 70px;
+        background: red;
+    }
+    62.5% {
+        height: 10px;
+        width: 50px;
+        left: 900px;
+        top: 70px;
+        background: red;
+    }
+    75% {
+        height: 10px;
+        width: 100px;
+        left: 700px;
+        top: 70px;
+        background: yellow;
+    }
+    87.5% {
+        height: 10px;
+        width: 50px;
+        left: 600px;
+        top: 70px;
+        background: yellow;
+    }
+    100% {
+        height: 10px;
+        width: 0px;
+        left: 450px;
+        top: 70px;
+        background: red;
+    }
+}
+
+
+/* .ani2 {
+    position: relative;
+    animation: mymove2 10s;
+    /* animation-play-state: play; */
+
+
+/* 
+animation-direction: reverse;
+
+}
+@keyframes mymove2 {
+    0% {
+        height: 10px;
+        width: 0px;
+        left: 70px;
+        top: 70px;
+        background: yellow;
+    }
+    
+    50% {
+        height: 10px;
+        width: 100px;
+    }
+    
+    100% {
+        height: 10px;
+        width: 0px;
+        left: 700px;
+        top: 70px;
+        background: red;
+    }
+} */
+
+input,
+textarea {
+    font-size: 20px;
+    /* width: 10%; */
+    /* margin: 10px; */
+    padding: 10px;
+    /* display: block; */
+}
+
+.NAME {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 105);
+    text-shadow: 1px 1px black;
+    margin-left: 30px;
+}
+
+.CONTACT {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 105);
+    text-shadow: 1px 1px black;
+    margin-left: 30px;
+}
+
+.EMAIL {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 105);
+    text-shadow: 1px 1px black;
+    margin-left: 30px;
+}
+
+.PASSWORD {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 105);
+    text-shadow: 1px 1px black;
+    margin-left: 30px;
+}
+
+.SECURITY {
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    text-shadow: 1px 1px black;
+    margin-left: 30px;
+}
+
+.ANSWER {
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    text-shadow: 1px 1px black;
+    margin-left: 30px;
+}
+
+#name {
+    border: 3px solid green;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 3px;
+    width: 500px;
+    outline: none;
+}
+
+#contact {
+    border: 3px solid green;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 3px;
+    width: 500px;
+    outline: none;
+}
+
+#email {
+    border: 3px solid green;
+    /* display: flex; */
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 3px;
+    width: 500px;
+    outline: none;
+}
+
+#password {
+    border: 3px solid green;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 3px;
+    width: 500px;
+    outline: none;
+}
+
+#security_question {
+    border: 3px solid green;
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+    display: block;
+    outline: none;
+}
+
+#answer {
+    border: 3px solid green;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    /* margin-left: 0px; */
+    width: 500px;
+    outline: none;
+}
+
+#box {
+    border: 3px solid green;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 500px;
+    outline: none;
+}
+
+.cont {
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url("https://studyinthestates.dhs.gov/sites/default/files/styles/blog_image/public/iStock-537453120.jpg?itok=kWkpN-SM");
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    /* font-size: 30px; */
+    /* font-weight: 400; */
+    opacity: 0.7;
+    /* display: flex; */
+    background-attachment: fixed;
+}
+
+p.desc {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+p.abt {
+    color: black;
+    text-shadow: 1px 1px aqua;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.surround {
+    /* border: 5px solid maroon; */
+    /* box-sizing: border-box; */
+    /* margin-left: 2px; */
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/* .img {
+    margin-right: 320px;
+    border-radius: 50%;
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+    max-width: 100%;
+    opacity: 0.65;
+} */
+
+.gen {
+    color: black;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.submission {
+    margin-left: 30px;
+    color: white;
+    background: blueviolet;
+    padding: 8px 12px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    width: 105px;
+    font-family: 'Lobster', cursive;
+}
+
+.after_submit {
+    font-size: 25px;
+    color: green;
+    margin-left: 30px;
+}
+
+
+/* #option1 {
+    vertical-align: left;
+    margin: 0px;
+} */
